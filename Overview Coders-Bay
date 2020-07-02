@@ -1,0 +1,9 @@
+Overview Coders-Bay
+roles(name)
+region(zip, name)
+persons(ssn, firstname, lastname, street, street number, zip)
+role_assoc(SSN, role_name)
+courses(ID, name, max participants, duration)
+course_schedule(SID, ID, start_date, end_date)
+course_participants(SID, SSN)
+trainer_assoc(sid, ssn)
